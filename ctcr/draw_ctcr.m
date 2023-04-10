@@ -43,9 +43,9 @@ function [fig] = draw_ctcr(g,tube_end,r_tube,options)
     numtubes = size(tube_end,2);
 
     %% Setup figure
-    fig=figure;
-    hold on
-    set(fig,'Position',[0 0 1280 1024]);
+%     fig=figure;
+%     hold on
+%     set(fig,'Position',[0 0 1280 1024]);
 
     % Axes, Labels
     clearance = 0.03;
